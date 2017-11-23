@@ -1,0 +1,9 @@
+package demo;
+public class CoverityScanTest{
+  private List<String> appendList;
+  
+  //this method should throw nullpointer exception
+  public static void main(String[] args){
+      appendList.add("1");
+  }
+}
